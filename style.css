@@ -1,12 +1,73 @@
-/* header color */
+/* Header Pamela Anderson */
 .a-header1 {
     background-color: #4aaaa5;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+/* Navbar*/
+#barName{
+	background-color: #4aaaa5;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size:35px;
+	color:#ffffff;
+	text-align:middle;
+	height:60px;
+	margin-left:20%;
+}
+
+.dropdownList{
+	border-style:solid;
+	border-width:2px;
+	border-color:#cccccc;
+}
+.personalMods{
+	padding: 0 !important;
+	background-color:#ffffff;
+	border-bottom-style:solid;
+	border-color:#cccccc;
+	border-width:6px;
+}
+
+.barlink{
+	padding:0 10px 0 20px !important;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	font-size:16px;
+	height:24px;
+    text-align:middle;
+  
+}
+.barlink:hover{
+	text-decoration:underline !important;
+	color:#666666;
+}
+
+#barAbout, #barPortfolio{
+	border-right-style:solid;
+	border-color:#666666;
+    border-width:1px;
+    
+}
+section {
+    border-style: solid;
+    border-width: 4px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border-radius: 10px;
+    width:115%;
+    max-width: 960px;
+    margin: 100px auto 100px auto;
+    padding: 10px 10px;
+}
 /* adjusts the body and about*/
 .h2-custom {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #4aaaa5;
+    font-size:40px;
+    border-bottom: solid;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 12%;
 }
 /* portfolio image*/
 .img-custom1 {
@@ -76,3 +137,10 @@ footer {
     background: #666;
     border-top: 8px solid #4aaaa5;
   }
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+	overflow:auto;
+  }  
