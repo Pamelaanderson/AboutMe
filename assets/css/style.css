@@ -109,7 +109,7 @@ padding-top: 10px
     bottom: 0px;
 }
 
-.smbtn {
+.smbtn, .img-custom2 {
     height: 44px;
     width: 44px;
     color: #0057ff;
