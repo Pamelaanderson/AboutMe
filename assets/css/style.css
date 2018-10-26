@@ -2,40 +2,41 @@
 
 
 .a-header1 {
-    background-color: #4aaaa5;
+    background-color: #0057ff;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 /* Navbar*/
 #name{
-	background-color: #4aaaa5;
-	font-family:Georgia, 'Times New Roman', Times, serif;
-	font-size:35px;
+    font-family: 'Lobster', cursive;
+    font-size:55px;
 	color:#ffffff;
-	text-align:middle;
+	text-align: center;
 	height:60px;
-	margin-left:10%;
+    margin-left:10%;
+    
 }
+
 /* affects the header with the drop down*/
 .dropdownList{
 	border-style:solid;
 	border-width:2px;
-	border-color:#cccccc;
+	border-color:rgb(122,122,122);
 }
 /*white box*/
 .personalMods{
-	background-color:#ffffff;
+	background-color:rgb(122,122,122);
 	border-bottom-style:solid;
-	border-color:#cccccc;
+	border-color: #0057ff;
 	border-width:6px;
 }
 
 .barlink{
 	font-family: Arial, Helvetica, sans-serif;
-	color: #666666; 
+	color: #0057ff; 
 }
 .barlink:hover{
 	text-decoration:underline;
-    color:#666666;
+    color:rgb(122,122,122);
      
 }
 section {
@@ -56,7 +57,7 @@ section {
 /* adjusts the body and about*/
 .h2-custom {
     font-family: Arial, Helvetica, sans-serif;
-    color: #4aaaa5;
+    color: #0057ff;
     font-size:40px;
     border-bottom: solid;
     width: 100%;
@@ -76,19 +77,24 @@ section {
 /* connects with portfolio headers*/
  .sp1 {
     position: absolute;
-    background-color: #4aaaa5;
+    background-color: #0057ff;
     height: 35px;
     top: 50%;
     width:100%;
     display: flex;
     align-items: center;
     justify-content: center;
+  
 } 
 /*portfolio*/
 .strip {
     
     position: relative;
 } 
+.namestrip {
+    color: white;
+    
+}
 
 .push-footer {
 
@@ -97,10 +103,20 @@ width: auto;
 max-width: 680px;
 padding-top: 10px
 
+}
+#connect {
+    text-align: center;
+    bottom: 0px;
+}
 
-
-
-
+.smbtn {
+    height: 44px;
+    width: 44px;
+    color: #0057ff;
+}
+.connecttitle {
+    font-size: 24px;
+    color: #0057ff;
 }
 /* footer */
 
@@ -115,8 +131,8 @@ footer {
     color: #fff;
     color: #ccc;
     text-align: center;
-    background: #666;
-    border-top: 8px solid #4aaaa5;
+    background: rgb(122,122,122);
+    border-top: 8px solid #0057ff;
   }
 
 .clearfix::after {
